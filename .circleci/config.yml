@@ -531,6 +531,7 @@ workflows:
           #   - pass-tests
           image: klaytn/klaytn
           tag: $CIRCLE_TAG,$CIRCLE_SHA1
+          executor: machine
           use-remote-docker: true
 
       # - major-tagging:
